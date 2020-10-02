@@ -13,6 +13,9 @@ Note that this code was built more for it's functionality rather than efficiency
  Define your constants: 
  
 filelist - specify what type of file(s) to import (.dbf, .txt, .csv)
+
 timeseries_attribute - the column name of the attribute to keep and compare across time
+
 key_attribute - the attribute that uniquely identifies each entity
+
 add_attribute <- an additional attribute that unique identifies each entity (this is not necessary and can be deleted if desired)
